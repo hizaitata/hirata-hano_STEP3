@@ -56,7 +56,7 @@ ul {
 
 
 
-image{
+img{
     display: flex;
     width: 30%;
     height: 30%;
@@ -73,15 +73,6 @@ img:hover {
 main{
     text-align: center;
 }
-
-.main-aicon{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
-
-
 
 .flex-item {
     background: #fff;
@@ -108,15 +99,7 @@ main{
     border-radius: 0;
     box-shadow: none;
 }
-  
-  .flex-item {
-    text-align: center;
-  }
 
-button{
-    color: #00582d;
-    
-}
 
 #contact {
     max-width: 600px;
@@ -174,6 +157,7 @@ button{
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
+    width: 100%;
 }
 
 #contact button:hover {
